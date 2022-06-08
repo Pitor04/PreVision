@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">PreVision</string>
+    <string name="prevision">PreVision</string>
+    <string name="xd">xd</string>
+    <string name="logo">logo</string>
+    <string name="usuario">Usuario</string>
+    <string name="oa">xd</string>
+    <string name="im">im</string>
+    <string name="im2">im2</string>
+    <string name="inicio">Inicio</string>
+    <string name="ajustes">Ajustes</string>
+    <string name="ayuda">Ayuda</string>
+    <string name="red">red</string>
+    <string name="_2022_copyrigth_todos_los_derechos_reservados_por_caterham">2022 © Copyrigth - Todos los derechos reservados por Caterham</string>
+    <string name="salir">Salir</string>
+</resources>
