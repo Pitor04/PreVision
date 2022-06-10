@@ -1,16 +1,20 @@
 package com.example.prevision
 
-import android.content.Intent
 import android.os.Bundle
-import android.widget.Button
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.example.prevision.databinding.ActivityMainBinding
+import com.example.prevision.databinding.ActivityStartBinding
 
 class StartActivity : AppCompatActivity() {
+    private lateinit var binding: ActivityStartBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_start)
-        val botonsalir = findViewById<Button>(R.id.Salir)
+        binding = ActivityStartBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+
+        binding.salir.setOnClickListener {
+            // Finalizas la ultima actividad, por lo tanto saldrás de la aplicación.
+            finish()
+        }
     }
 }
